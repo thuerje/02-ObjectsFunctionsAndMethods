@@ -22,7 +22,8 @@ import rosegraphics as rg
 
 
 def main():
-    sides(3,4)
+    ans = sides(3,4)
+    print(ans)
     draw('red',10)
     """"
     TESTS the functions that you will write below.
@@ -47,7 +48,7 @@ def main():
 def sides(adj1,adj2):
     import math
     hyp = math.sqrt(adj1**2 + adj2**2)
-    print (hyp)
+    return hyp
 
 ###############################################################################
 #
@@ -80,6 +81,7 @@ def draw(color,pen_thickness):
         t2.pen = rg.Pen(color,5)
         t2.backward(100)
         window.close_on_mouse_click()
+
 
 
 
