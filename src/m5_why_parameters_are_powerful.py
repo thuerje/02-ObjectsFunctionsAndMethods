@@ -25,12 +25,21 @@ def main():
    # better_draw_circles(rg.Point(100, 50), 5)
    # better_draw_circles(rg.Point(-200, 0), 10)
 
-    even_better_draw_circles(rg.Point(100, 50), 5, 4, 'red', 1)
-    even_better_draw_circles(rg.Point(-200, 0), 10, 4, 'grey', 2)
+   # even_better_draw_circles(rg.Point(100, 50), 5, 4, 'red', 1)
+   # even_better_draw_circles(rg.Point(-200, 0), 10, 4, 'grey', 2)
+
+    even_better_draw_circles(rg.Point(-150, 150), 50, 1, 'black', 10)
+    even_better_draw_circles(rg.Point(150, 150), 50, 1, 'black', 10)
+    even_better_draw_circles(rg.Point(0, -75), 25, 1, 'blue', 2)
+    even_better_draw_circles(rg.Point(75, -50), 25, 1, 'blue', 2)
+    even_better_draw_circles(rg.Point(100, 0), 25, 1, 'blue', 2)
+    even_better_draw_circles(rg.Point(125, 25), 25, 1, 'blue', 2)
+    even_better_draw_circles(rg.Point(-75, -50), 25, 1, 'blue', 2)
+    even_better_draw_circles(rg.Point(-100, 0), 25, 1, 'blue', 2)
+    even_better_draw_circles(rg.Point(-125, 25), 25, 1, 'blue', 2)
 
     window.update()
     window.close_on_mouse_click()
-
 
 ###############################################################################
 #
@@ -205,7 +214,7 @@ def even_better_draw_circles(point, radii, num_circs, pen_color, pen_thickness):
 
 
 ###############################################################################
-# TODO: 5.
+# DONE
 #
 # Finally, comment-out the existing calls to  even_better_draw_circles  and
 # add code in   main  to draw various circles that form a BEAUTIFUL picture!
