@@ -47,7 +47,7 @@ def main():
 def sides(adj1,adj2):
     import math
     hyp = math.sqrt(adj1**2 + adj2**2)
-    print(hyp)
+    print (hyp)
 
 ###############################################################################
 #
